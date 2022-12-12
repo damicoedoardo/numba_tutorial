@@ -10,6 +10,7 @@ packages = [{include = "numba_tutorial"}]
 python = "^3.10"
 pandas = "^1.5.2"
 numba = "^0.56.4"
+pytictoc = "^1.5.2"
 
 
 [tool.poetry.group.dev.dependencies]

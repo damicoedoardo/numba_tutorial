@@ -285,6 +285,18 @@ files = [
 six = ">=1.5"
 
 [[package]]
+name = "pytictoc"
+version = "1.5.2"
+description = "Time code using syntax similar to tic and toc in MATLAB"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pytictoc-1.5.2-py2.py3-none-any.whl", hash = "sha256:0f612ba1e23051e5b0688a45b1d5a2d37388a545db61a69fba83bc7bd735211c"},
+    {file = "pytictoc-1.5.2.tar.gz", hash = "sha256:dd9b636493bf140a1f8113eae296439dd5c8703ed9dcded181ae0936870530eb"},
+]
+
+[[package]]
 name = "pytz"
 version = "2022.6"
 description = "World timezone definitions, modern and historical"
@@ -340,4 +352,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3e3030cb88822164d70834b01d9088671683c5e48b58f0877196e8d4f6e3870c"
+content-hash = "b300296c3ec85237951761aa3ed459619c38acec7b5aba6e05a6b5948e58daa8"
