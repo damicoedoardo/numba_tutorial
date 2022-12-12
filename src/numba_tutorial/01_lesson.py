@@ -8,7 +8,7 @@ def sum_elem(arr: np.ndarray, elem: int) -> None:
         arr[i] += elem
 
 
-@njit(cache=True)
+@njit
 def nb_sum_elem(arr: np.ndarray, elem: int) -> None:
     for i in range(len(arr)):
         arr[i] += elem
